@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    header - шапка
+    <nav>nav - навигационное меню </nav>
+</header>
+    <h1>заголовки от 1 до 6</h1>
+
+    <p>абзац, каждый с новой строки</p>
+    <p>абзац, каждый с новой строки</p>
+    <p>абзац, каждый с новой строки</p>
+
+    <h2>заголовки от 1 до 6</h2>
+
+    <span>продолжение строки1</span>
+    <span>продолжение строки2</span>
+
+        <!-- если есть таргет - то ссылка открывается в новом окне, если нет - в существуещем-->
+
+    <a target="_blank" href="https://google.com">
+        ссылка
+    </a>
+
+    <!--<img src="путь к картинке" alt="текст вместо картинки, если не загрузилась">-->
+
+    <ul>
+        <li>содержимое тега</li>
+        <li>содержимое тега</li>
+        <li>содержимое тега</li>
+        <li>содержимое тега</li>
+    </ul>
+
+    <ol>
+        <li>содержимое тега</li>
+        <li>содержимое тега</li>
+        <li>содержимое тега</li>
+        <li>содержимое тега</li>
+        <li>содержимое тега</li>
+    </ol>
+
+    <!--Перевод текста на новую строку - <br>-->
+
+    <form action="@" method = "get" enctype="multipart/form-data"></form>
+    <!--action - адрес, куда отправляется форма, method - метод отправки, enctype - способ кодирования данных-->
+    <!--get - в адресной строке, post - внутри запроса-->
+    <!--enctype - способ кодирования данных, если есть файлы, то multipart/form-data-->
+    <div>
+        <input tabindex = "1" placeholder = "логин" type="text" name="username" value="">
+    </div>
+    <div>
+        <input tabindex = "2" placeholder = "пароль" type="password" name="userpass" value="">
+    </div>
+    <div>
+        <p><input checked type="radio" name="beer" value="lager">  Светлое пиво</p>
+        <p><input type="radio" name="beer" value="dark">  Темное пиво</p>
+    </div>
+    <br>
+    <div>
+        <p><input type="radio" name="beer2" value="lager">  Светлое пиво</p>
+        <p><input checked type="radio" name="beer2" value="dark">  Темное пиво</p>
+    </div>
+    <br>
+    <div>
+        <p><input checked type="checkbox" name="car" value="yes"> Наличие авто</p>
+        <p><input type="checkbox" name="car2" value="yes"> Наличие авто 2</p>
+        <p><input type="checkbox" name="car3" value="yes"> Наличие авто 3</p>
+        <p><input type="checkbox" name="car4" value="yes"> Наличие авто 4</p>
+    </div>
+   <div?>
+        <input type="file" name="photo">
+    </div>
+    <div>
+        <textarea name="text"></textarea>
+    </div>
+    <div>
+        <select name="color">
+            <option value="red">Красный</option>
+            <option selected value="black">Черный</option>
+            <option value="blue">Синий</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">
+            Paste
+        </button>
+    </div>
+    <!--sumbit - отправить все поля формы, reset - очистить форму-->
+<footer>
+    подвал
+</footer>
+</body>
+</html>
